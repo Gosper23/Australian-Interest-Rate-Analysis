@@ -1,19 +1,19 @@
-## The purpose of this work is to idenfiy how in Australia, interest rate change will effect on:
+## purpose of this work is to idenfiy, in Australia, how interest rate change effect on:
 
-* Inflation, GDP, or unemployment
+* Inflation, GDP, or unemployment rate
 
 * Stock indexes
 
 * Currency Exchange rates
 
 
-## Questions 1
+### Major Question one:
 
-Will change of Interest Rate effect Inflation, GDP, or unemployment?
+Will change of Interest Rate effect Inflation, GDP, or unemployment rate?
 
-### Major findings:
+### Findings:
 
-No obvious trend detected on GDP and Inflation, however soome interesting findings on correlation between interest rate and unemployment rate.
+No obvious trend detected on GDP and Inflation. However, some interesting findings on correlation between interest rate and unemployment rate.
 
 During year 2008-2011, when interest rate raise, unemployment goes down and vice versa
 
@@ -21,22 +21,22 @@ Interest rate seems to be significantly negatively correlated with unemployment 
 
 ![inflation](https://github.com/Gosper23/Australian-Interest-Rate-Analysis/blob/features_jm/Images/Financial%20Factors.png)
 
-## Question two:
+### Major Question two:
 
-Will Interest rate effect the index of the 11 sectors of on ASX exchange?
+Will Interest rate effect the index of the 11 sectors on the ASX exchange?
 
-### Major findings:
+### Findings:
 
-11 sectors are Energy, Materials, Industrials, Consumer Discretionary, Consumer Staples, Health Care, Financials, Information Technology, Communication Services, Utilities and Real Estate. 
-From the data anylyais it is found that the interest rate rise and fall was closest correlated with Materials
+The 11 sectors on the ASX exchange are Energy, Materials, Industrials, Consumer Discretionary, Consumer Staples, Health Care, Financials, Information Technology, Communication Services, Utilities and Real Estate. 
+From the data anylyais, it is found that the interest rate rise and fall was somehow closest correlated with Materials
 
 ![inflation](https://github.com/Gosper23/Australian-Interest-Rate-Analysis/blob/features_jm/Images/ASX.png)
 
-## Question three:
+### Major Question three:
 
 Will Interest Rate effect currency exchange rates ? (USD, EUR, GBP, CAD, NZD, SGD)
 
-### Major findings:
+### Findings:
 
 Some instances when rates fall, currency falls and vice versa,but no obvovious high correlation against the iterest rate changes.
 
@@ -44,11 +44,11 @@ Some instances when rates fall, currency falls and vice versa,but no obvovious h
 ![inflation](https://github.com/Gosper23/Australian-Interest-Rate-Analysis/blob/features_jm/Images/Currency%20Graph.png)
 
 
-## The work contains:
+## This repo contains:
 
-Comparison on Interest Rate vs Inflation, GDP, unemployment:
+Comparison on Interest Rate vs Inflation, GDP and Unemployment:
 
-* isolate range of 2000-6 to current, sorting, drop null, drop %, setting index, 
+* isolate range of 2006 to current, sorting, drop null, drop %, setting index, 
 
 * using panda's libaray to concat dataframe on actualfigure and percentage change, using hvplot and bokeh to graph the final result
 
@@ -59,13 +59,13 @@ create date column.
 
 * concat to produce two data frames, one actual value of closing and one on percentage change
 
-* plot data frame on percentage change into heatmap. created line graph.
+* plot data frame on percentage change into heatmap. create line graph.
 
 
 
 Comparison on Interest Rate vs Currency Exchange rates ( USD, GBP,  EUR, CAD, NZD, SGD): 
 
-* imported csv files, drop irrelevant columns, check null, drop null value setting index for USD, concat dataframe.
+* import csv files, drop irrelevant columns, check null, drop null value setting index for USD, concat dataframe.
 export clean data.
 
 * merge dataframe of interst rates and currenies. group currency data by montly average.
@@ -73,7 +73,9 @@ export clean data.
 * plot correlation matrix on percentage change.  
 
 
-Libary used: os, Path, dotenv, datetime, pandas, numpy, holoviews, bokeh, seaborn,panel,plotly,hvplot
+libaries utlized: os, Path, dotenv, datetime, pandas, numpy, holoviews, bokeh, seaborn,panel,plotly,hvplot
 
-Data source: refinitiv - Finance Software, [abs](https://www.abs.gov.au) 
- [investing.com](https://au.investing.com/) 
+###Data source: 
+refinitiv - Finance Software, 
+[abs](https://www.abs.gov.au) 
+[investing.com](https://au.investing.com/) 
