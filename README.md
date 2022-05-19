@@ -1,4 +1,4 @@
-# The purpose of this work is to idenfiy how in Australia, interest rate change will effect on:
+## The purpose of this work is to idenfiy how in Australia, interest rate change will effect on:
 
 * Inflation, GDP, or unemployment
 
@@ -7,11 +7,11 @@
 * Currency Exchange rates
 
 
-# Questions 1
+## Questions 1
 
 Will change of Interest Rate effect Inflation, GDP, or unemployment?
 
-# Major findings:
+### Major findings:
 
 No obvious trend detected on GDP and Inflation, however soome interesting findings on correlation between interest rate and unemployment rate.
 
@@ -21,22 +21,22 @@ Interest rate seems to be significantly negatively correlated with unemployment 
 
 ![inflation](https://github.com/Gosper23/Australian-Interest-Rate-Analysis/blob/features_jm/Images/Financial%20Factors.png)
 
-# Question two:
+## Question two:
 
 Will Interest rate effect the index of the 11 sectors of on ASX exchange?
 
-# Major findings:
+### Major findings:
 
 11 sectors are Energy, Materials, Industrials, Consumer Discretionary, Consumer Staples, Health Care, Financials, Information Technology, Communication Services, Utilities and Real Estate. 
 From the data anylyais it is found that the interest rate rise and fall was closest correlated with Materials
 
 ![inflation](https://github.com/Gosper23/Australian-Interest-Rate-Analysis/blob/features_jm/Images/ASX.png)
 
-# Question three:
+## Question three:
 
 Will Interest Rate effect currency exchange rates ? (USD, EUR, GBP, CAD, NZD, SGD)
 
-# Major findings:
+### Major findings:
 
 Some instances when rates fall, currency falls and vice versa,but no obvovious high correlation against the iterest rate changes.
 
@@ -44,7 +44,7 @@ Some instances when rates fall, currency falls and vice versa,but no obvovious h
 ![inflation](https://github.com/Gosper23/Australian-Interest-Rate-Analysis/blob/features_jm/Images/Currency%20Graph.png)
 
 
-# The work contains:
+## The work contains:
 
 Comparison on Interest Rate vs Inflation, GDP, unemployment:
 
@@ -73,7 +73,7 @@ export clean data.
 * plot correlation matrix on percentage change.  
 
 
-Libary used: Pandas,pivz,bokeh..
+Libary used: os, Path, dotenv, datetime, pandas, numpy, holoviews, bokeh, seaborn,panel,plotly,hvplot
 
 Data source: refinitiv - Finance Software, [abs](https://www.abs.gov.au) 
  [investing.com](https://au.investing.com/) 
