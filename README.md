@@ -1,4 +1,4 @@
-## purpose of this work is to idenfiy, in Australia, how interest rate change effect on:
+## Purpose of this work is to idenfiy, in Australia, how interest rate change effect on:
 
 * Inflation, GDP, or unemployment rate
 
