@@ -73,7 +73,7 @@ export clean data.
 * plot correlation matrix on percentage change.  
 
 
-# Libary used: Pandas,pivz,bokeh,
+Libary used: Pandas,pivz,bokeh..
 
-# Data source: refinitiv - Finance Software, [abs](https://www.abs.gov.au) 
+Data source: refinitiv - Finance Software, [abs](https://www.abs.gov.au) 
  [investing.com](https://au.investing.com/) 
