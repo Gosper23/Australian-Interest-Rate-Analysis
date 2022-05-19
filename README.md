@@ -73,11 +73,12 @@ export clean data.
 * plot correlation matrix on percentage change.  
 
 
-libaries utlized: os, Path, dotenv, datetime, pandas, numpy, holoviews, bokeh, seaborn,panel,plotly,hvplot
+libaries utlized: 
+Os, Path, Dotenv, Datetime, Pandas, Numpy, Holoviews, Bokeh, Seaborn,Panel,Plotly,Hvplot
 
 Data source: 
 
-refinitiv - Finance Software,
+Refinitiv - Finance Software,
 
 [abs](https://www.abs.gov.au), 
 
