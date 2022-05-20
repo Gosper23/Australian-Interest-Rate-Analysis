@@ -1,4 +1,4 @@
-## purpose of this work is to idenfiy, in Australia, how interest rate change effect on:
+## Purpose of this work is to idenfiy, in Australia, how interest rate change effect on:
 
 * Inflation, GDP, or unemployment rate
 
@@ -48,32 +48,32 @@ Some instances when rates fall, currency falls and vice versa,but no obvovious h
 
 Comparison on Interest Rate vs Inflation, GDP and Unemployment:
 
-* isolate range of 2006 to current, sorting, drop null, drop %, setting index, 
+* Isolate range of 2006 to current, sorting, drop null, drop %, setting index, 
 
-* using panda's libaray to concat dataframe on actualfigure and percentage change, using hvplot and bokeh to graph the final result
+* Using panda's libaray to concat dataframe on actualfigure and percentage change, using hvplot and bokeh to graph the final result
 
 Comparison on Interest Rate vs Stock indexes in the 11 sectors of the ASX exchange:
 
-* check and drop nulls, set date column as object, convert object data in data frames to numeric.
+* Check and drop nulls, set date column as object, convert object data in data frames to numeric.
 create date column.
 
-* concat to produce two data frames, one actual value of closing and one on percentage change
+* Concat to produce two data frames, one actual value of closing and one on percentage change
 
-* plot data frame on percentage change into heatmap. create line graph.
+* Plot data frame on percentage change into heatmap. create line graph.
 
 
 
 Comparison on Interest Rate vs Currency Exchange rates ( USD, GBP,  EUR, CAD, NZD, SGD): 
 
-* import csv files, drop irrelevant columns, check null, drop null value setting index for USD, concat dataframe.
+* Import csv files, drop irrelevant columns, check null, drop null value setting index for USD, concat dataframe.
 export clean data.
 
-* merge dataframe of interst rates and currenies. group currency data by montly average.
+* Merge dataframe of interst rates and currenies. group currency data by montly average.
 
-* plot correlation matrix on percentage change.  
+* Plot correlation matrix on percentage change.  
 
 
-libaries utlized: os, Path, dotenv, datetime, pandas, numpy, holoviews, bokeh, seaborn,panel,plotly,hvplot
+Libaries used: os, Path, dotenv, datetime, pandas, numpy, holoviews, pandas_bokeh,panel, plotly,hvplot
 
 ##Data source: 
 refinitiv - Finance Software, 
