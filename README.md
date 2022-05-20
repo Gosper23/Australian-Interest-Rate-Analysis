@@ -81,3 +81,5 @@ refinitiv - Finance Software,
 [abs](https://www.abs.gov.au) 
 
 [investing.com](https://au.investing.com/) 
+
+Find our presentation [here](https://docs.google.com/presentation/d/1O1nfnlkPutPFFq8dUQorQkbq9JduA0Up/edit?usp=sharing&ouid=117874016718866142052&rtpof=true&sd=true) 
